@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RM Projects | ניהול פרויקטים ובנייה</title>
+    <meta name="description" content="RM Projects - חברת ניהול פרויקטים, בנייה ושיפוצים מובילה. מומחים בתכנון, עיצוב ופיקוח בנייה.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="loader-inner">
+                <span>RM</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cursor follower -->
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <span class="logo-r">R</span><span class="logo-m">M</span>
+                <span class="logo-text">PROJECTS</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">דף הבית</a></li>
+                <li><a href="#about" class="nav-link">אודות</a></li>
+                <li><a href="#services" class="nav-link">שירותים</a></li>
+                <li><a href="#projects" class="nav-link">פרויקטים</a></li>
+                <li><a href="#testimonials" class="nav-link">המלצות</a></li>
+                <li><a href="#contact" class="nav-link cta-link">צור קשר</a></li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-overlay"></div>
+            <div class="hero-pattern"></div>
+        </div>
+
+        <div class="hero-particles" id="particles"></div>
+
+        <div class="container hero-content">
+            <div class="hero-badge" data-aos="fade-down" data-aos-delay="200">
+                <span>מצוינות בבנייה מאז 2010</span>
+            </div>
+            <h1 data-aos="fade-up" data-aos-delay="400">
+                <span class="hero-title-line">בונים את</span>
+                <span class="hero-title-highlight">החלום שלכם</span>
+                <span class="hero-title-line">למציאות</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="600">
+                ניהול פרויקטים, בנייה ושיפוצים ברמה הגבוהה ביותר.
+                <br>מלווים אתכם מהתכנון ועד המפתח.
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="800">
+                <a href="#contact" class="btn btn-primary">
+                    <span>בואו נדבר</span>
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <a href="#projects" class="btn btn-outline">
+                    <span>הפרויקטים שלנו</span>
+                    <i class="fas fa-eye"></i>
+                </a>
+            </div>
+
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="1000">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="350">0</div>
+                    <div class="stat-label">פרויקטים הושלמו</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="15">0</div>
+                    <div class="stat-label">שנות ניסיון</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-label">% שביעות רצון</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="1200">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>גלול למטה</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="about-img-main">
+                        <div class="img-placeholder" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);">
+                            <i class="fas fa-building" style="font-size: 4rem; color: rgba(212, 175, 55, 0.3);"></i>
+                        </div>
+                        <div class="experience-badge">
+                            <span class="exp-number">15+</span>
+                            <span class="exp-text">שנות<br>ניסיון</span>
+                        </div>
+                    </div>
+                    <div class="about-img-secondary">
+                        <div class="img-placeholder" style="background: linear-gradient(135deg, #0f3460 0%, #533483 100%);">
+                            <i class="fas fa-hard-hat" style="font-size: 3rem; color: rgba(212, 175, 55, 0.3);"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="section-tag">
+                        <span class="tag-line"></span>
+                        <span>מי אנחנו</span>
+                    </div>
+                    <h2 class="section-title">
+                        חברת <span class="highlight">RM Projects</span>
+                        <br>מובילה בתחום הבנייה
+                    </h2>
+                    <p class="about-text">
+                        חברת RM Projects הוקמה מתוך חזון לספק שירותי בנייה וניהול פרויקטים ברמה הגבוהה ביותר. אנו מתמחים בפרויקטים של בנייה, שיפוצים, תכנון ועיצוב – תוך הקפדה על איכות, דייקנות ועמידה בלוחות זמנים.
+                    </p>
+                    <p class="about-text">
+                        הצוות שלנו מורכב מאנשי מקצוע מנוסים ומסורים, המביאים עמם ידע רב וניסיון עשיר בתחום. אנו מאמינים שכל פרויקט הוא סיפור ייחודי, ואנו כאן כדי להפוך את החזון שלכם למציאות.
+                    </p>
+
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div>
+                                <h4>איכות ללא פשרות</h4>
+                                <p>שימוש בחומרים איכותיים ובעלי מקצוע מובילים</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div>
+                                <h4>עמידה בלוחות זמנים</h4>
+                                <p>מחויבות לסיום הפרויקט בזמן ובתקציב</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div>
+                                <h4>שירות אישי ומסור</h4>
+                                <p>ליווי צמוד לאורך כל שלבי הפרויקט</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary">
+                        <span>למידע נוסף</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="section-bg-pattern"></div>
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag center">
+                    <span class="tag-line"></span>
+                    <span>מה אנחנו מציעים</span>
+                    <span class="tag-line"></span>
+                </div>
+                <h2 class="section-title center">השירותים <span class="highlight">שלנו</span></h2>
+                <p class="section-subtitle">אנו מציעים מגוון רחב של שירותי בנייה וניהול פרויקטים, המותאמים לצרכים שלכם</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3>ניהול פרויקטים</h3>
+                    <p>ניהול מקצועי ומקיף של פרויקטי בנייה ושיפוצים מכל סוג וגודל. תיאום כלל בעלי המקצוע, פיקוח על לוחות זמנים ותקציב.</p>
+                    <a href="#contact" class="service-link">
+                        <span>למידע נוסף</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3>שיפוצים</h3>
+                    <p>שיפוץ דירות, בתים ומשרדים ברמה הגבוהה ביותר. שיפוצים כוללים או חלקיים, עם תשומת לב לכל פרט ופרט.</p>
+                    <a href="#contact" class="service-link">
+                        <span>למידע נוסף</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3>בנייה</h3>
+                    <p>בניית בתים פרטיים, וילות ומבנים מסחריים. ביצוע מא' ועד ת', כולל עבודות שלד, גמר ופיתוח.</p>
+                    <a href="#contact" class="service-link">
+                        <span>למידע נוסף</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon">
+                            <i class="fas fa-drafting-compass"></i>
+                        </div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3>תכנון ועיצוב</h3>
+                    <p>תכנון אדריכלי ועיצוב פנים מקצועי. הפיכת חזון ורעיונות למרחבים מעוצבים ופונקציונליים.</p>
+                    <a href="#contact" class="service-link">
+                        <span>למידע נוסף</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon">
+                            <i class="fas fa-hard-hat"></i>
+                        </div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3>פיקוח בנייה</h3>
+                    <p>פיקוח צמוד על עבודות הבנייה, הבטחת איכות הביצוע ועמידה בתקנים. דיווח שוטף ומעקב אחר התקדמות.</p>
+                    <a href="#contact" class="service-link">
+                        <span>למידע נוסף</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3>ייעוץ הנדסי</h3>
+                    <p>ייעוץ הנדסי מקצועי לפרויקטים מכל סוג. פתרונות חכמים ויצירתיים לאתגרים הנדסיים מורכבים.</p>
+                    <a href="#contact" class="service-link">
+                        <span>למידע נוסף</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag center">
+                    <span class="tag-line"></span>
+                    <span>איך זה עובד</span>
+                    <span class="tag-line"></span>
+                </div>
+                <h2 class="section-title center">תהליך <span class="highlight">העבודה</span> שלנו</h2>
+                <p class="section-subtitle">בארבעה שלבים פשוטים, מהרעיון ועד לפרויקט מוגמר</p>
+            </div>
+
+            <div class="process-timeline">
+                <div class="process-line"></div>
+
+                <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-comments"></i></div>
+                        <h3>פגישת ייעוץ</h3>
+                        <p>פגישה ראשונית להבנת הצרכים, החזון והתקציב שלכם</p>
+                    </div>
+                </div>
+
+                <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-pencil-ruler"></i></div>
+                        <h3>תכנון ותכנון</h3>
+                        <p>הכנת תוכניות מפורטות, הצעות מחיר ולוח זמנים</p>
+                    </div>
+                </div>
+
+                <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-hammer"></i></div>
+                        <h3>ביצוע</h3>
+                        <p>ביצוע העבודות בפיקוח צמוד, תוך הקפדה על איכות ודייקנות</p>
+                    </div>
+                </div>
+
+                <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-icon"><i class="fas fa-key"></i></div>
+                        <h3>מסירה</h3>
+                        <p>בדיקה סופית, תיקונים ומסירת המפתח – הפרויקט המוגמר שלכם</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag center">
+                    <span class="tag-line"></span>
+                    <span>העבודות שלנו</span>
+                    <span class="tag-line"></span>
+                </div>
+                <h2 class="section-title center">פרויקטים <span class="highlight">נבחרים</span></h2>
+                <p class="section-subtitle">הצצה לפרויקטים שהשלמנו בהצלחה</p>
+            </div>
+
+            <div class="projects-filter" data-aos="fade-up" data-aos-delay="200">
+                <button class="filter-btn active" data-filter="all">הכל</button>
+                <button class="filter-btn" data-filter="residential">מגורים</button>
+                <button class="filter-btn" data-filter="commercial">מסחרי</button>
+                <button class="filter-btn" data-filter="renovation">שיפוצים</button>
+            </div>
+
+            <div class="projects-grid" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-card" data-category="residential">
+                    <div class="project-image">
+                        <div class="img-placeholder project-gradient-1">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <span class="project-category">מגורים</span>
+                                <h3>וילה מודרנית בהרצליה</h3>
+                                <p>בנייה מלאה של וילה יוקרתית</p>
+                                <a href="#" class="project-link"><i class="fas fa-arrow-left"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="commercial">
+                    <div class="project-image">
+                        <div class="img-placeholder project-gradient-2">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <span class="project-category">מסחרי</span>
+                                <h3>משרדי הייטק בתל אביב</h3>
+                                <p>עיצוב ובנייה של חלל משרדי מודרני</p>
+                                <a href="#" class="project-link"><i class="fas fa-arrow-left"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="renovation">
+                    <div class="project-image">
+                        <div class="img-placeholder project-gradient-3">
+                            <i class="fas fa-paint-roller"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <span class="project-category">שיפוצים</span>
+                                <h3>שיפוץ דירת יוקרה</h3>
+                                <p>שיפוץ כולל של דירת 5 חדרים</p>
+                                <a href="#" class="project-link"><i class="fas fa-arrow-left"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="residential">
+                    <div class="project-image">
+                        <div class="img-placeholder project-gradient-4">
+                            <i class="fas fa-house-user"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <span class="project-category">מגורים</span>
+                                <h3>בית פרטי בכפר שמריהו</h3>
+                                <p>תכנון ובנייה של בית משפחתי</p>
+                                <a href="#" class="project-link"><i class="fas fa-arrow-left"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="commercial">
+                    <div class="project-image">
+                        <div class="img-placeholder project-gradient-5">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <span class="project-category">מסחרי</span>
+                                <h3>מסעדת שף בירושלים</h3>
+                                <p>עיצוב ובנייה של חלל קולינרי ייחודי</p>
+                                <a href="#" class="project-link"><i class="fas fa-arrow-left"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="renovation">
+                    <div class="project-image">
+                        <div class="img-placeholder project-gradient-6">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <span class="project-category">שיפוצים</span>
+                                <h3>שיפוץ לובי מלון</h3>
+                                <p>שדרוג והתחדשות לובי מלון בוטיק</p>
+                                <a href="#" class="project-link"><i class="fas fa-arrow-left"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag center">
+                    <span class="tag-line"></span>
+                    <span>מה אומרים עלינו</span>
+                    <span class="tag-line"></span>
+                </div>
+                <h2 class="section-title center">המלצות <span class="highlight">לקוחות</span></h2>
+                <p class="section-subtitle">הלקוחות שלנו מספרים על החוויה שלהם</p>
+            </div>
+
+            <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-card active">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "RM Projects הפכו את חלום הבית שלנו למציאות. מהתכנון ועד המסירה, הצוות היה מקצועי, אמין ותמיד זמין. התוצאה הסופית עלתה על כל ציפיותינו."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>דני ומירב כהן</h4>
+                            <span>בנייה פרטית, הרצליה</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "הזמנו את RM Projects לשיפוץ המשרדים שלנו והתוצאה פשוט מדהימה. הם עמדו בלוח הזמנים, בתקציב, והתוצאה הסופית הייתה מושלמת. ממליצים בחום!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>יוסי לוי</h4>
+                            <span>שיפוץ משרדים, תל אביב</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "עבדנו עם RM Projects על פרויקט שיפוץ מורכב. הצוות הפגין מקצועיות יוצאת דופן, יצירתיות ותשומת לב לפרטים הקטנים. אנחנו שמחים על הבחירה."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>רונית שמעון</h4>
+                            <span>שיפוץ דירה, ירושלים</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-dots">
+                <button class="dot active" data-index="0"></button>
+                <button class="dot" data-index="1"></button>
+                <button class="dot" data-index="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="cta-bg">
+            <div class="cta-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in" data-aos-duration="1000">
+                <h2>מוכנים להתחיל את <span class="highlight">הפרויקט</span> הבא שלכם?</h2>
+                <p>צרו איתנו קשר עוד היום וקבלו ייעוץ ראשוני ללא עלות</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary btn-lg">
+                        <span>דברו איתנו</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                    <a href="tel:+972501234567" class="btn btn-outline btn-lg">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>050-123-4567</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-tag center">
+                    <span class="tag-line"></span>
+                    <span>בואו נדבר</span>
+                    <span class="tag-line"></span>
+                </div>
+                <h2 class="section-title center">צרו איתנו <span class="highlight">קשר</span></h2>
+                <p class="section-subtitle">נשמח לשמוע מכם ולסייע בכל שאלה</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-left" data-aos-delay="200">
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <h4>טלפון</h4>
+                            <a href="tel:+972501234567">050-123-4567</a>
+                            <a href="tel:+97231234567">03-123-4567</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <h4>אימייל</h4>
+                            <a href="mailto:info@rmprojects.co.il">info@rmprojects.co.il</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <h4>כתובת</h4>
+                            <p>ישראל</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-card-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-card-content">
+                            <h4>שעות פעילות</h4>
+                            <p>ראשון - חמישי: 08:00 - 18:00</p>
+                            <p>שישי: 08:00 - 13:00</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-right" data-aos-delay="400">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <input type="text" id="name" name="name" required placeholder=" ">
+                                <label for="name">שם מלא</label>
+                                <span class="input-icon"><i class="fas fa-user"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <input type="email" id="email" name="email" required placeholder=" ">
+                                    <label for="email">אימייל</label>
+                                    <span class="input-icon"><i class="fas fa-envelope"></i></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <input type="tel" id="phone" name="phone" required placeholder=" ">
+                                    <label for="phone">טלפון</label>
+                                    <span class="input-icon"><i class="fas fa-phone"></i></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <select id="service" name="service" required>
+                                    <option value="" disabled selected>בחרו שירות</option>
+                                    <option value="project-management">ניהול פרויקטים</option>
+                                    <option value="renovation">שיפוצים</option>
+                                    <option value="construction">בנייה</option>
+                                    <option value="design">תכנון ועיצוב</option>
+                                    <option value="supervision">פיקוח בנייה</option>
+                                    <option value="consulting">ייעוץ הנדסי</option>
+                                    <option value="other">אחר</option>
+                                </select>
+                                <span class="input-icon"><i class="fas fa-list"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                                <label for="message">הודעה</label>
+                                <span class="input-icon textarea-icon"><i class="fas fa-comment"></i></span>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>שליחת הודעה</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,64C960,75,1056,85,1152,80C1248,75,1344,53,1392,42.7L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z" fill="currentColor"></path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="logo footer-logo">
+                        <span class="logo-r">R</span><span class="logo-m">M</span>
+                        <span class="logo-text">PROJECTS</span>
+                    </a>
+                    <p>חברת RM Projects מתמחה בניהול פרויקטים, בנייה ושיפוצים ברמה הגבוהה ביותר. מחויבים למצוינות בכל פרויקט.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>קישורים מהירים</h4>
+                    <ul>
+                        <li><a href="#home">דף הבית</a></li>
+                        <li><a href="#about">אודות</a></li>
+                        <li><a href="#services">שירותים</a></li>
+                        <li><a href="#projects">פרויקטים</a></li>
+                        <li><a href="#contact">צור קשר</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>שירותים</h4>
+                    <ul>
+                        <li><a href="#services">ניהול פרויקטים</a></li>
+                        <li><a href="#services">שיפוצים</a></li>
+                        <li><a href="#services">בנייה</a></li>
+                        <li><a href="#services">תכנון ועיצוב</a></li>
+                        <li><a href="#services">פיקוח בנייה</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>יצירת קשר</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+972501234567">050-123-4567</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:info@rmprojects.co.il">info@rmprojects.co.il</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>ישראל</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 RM Projects. כל הזכויות שמורות.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/972501234567" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- AOS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
